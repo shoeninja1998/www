@@ -4,13 +4,13 @@ nav{
     background-color: #A43312;
     display: flex;
     justify-content: space-around;
-    margin-top: 5em;
+    margin-top: 0em;
 }
 nav a{
     color: white;
     text-decoration: none;
-    font-size: 4em;
-    padding: 3em 1em 1em 1em;
+    font-size: 2em;
+    padding: 2em 1em 1em 1em;
 } 
 nav a:hover{
     background-color:#EC058E;
@@ -18,13 +18,16 @@ nav a:hover{
     text-decoration: none;
 }
 .header-social{
-    padding-top: 8em;
+    padding-top: 2em;
+}
+.header-social a:hover{
+    background-color: transparent;
 }
 .facebook,.twitter,.instagram{
     width: 3em;
 }
 h1{
-    font-size:10em;
+    font-size:4em;
     text-align:center;
     font-family: headerFont;
 }
@@ -34,17 +37,17 @@ body{
 }
 p{
     text-align: center;
-    font-size: 8em;
+    font-size: 2em;
     font-family: paragraphFont;
     margin-left: 3em;
     margin-right: 3em;
 }
 .image{
-    height: 100em;
+    height: 20em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 2em solid black;
+    border: 0.5em solid black;
 }
 h2{
     text-align: center;
@@ -67,15 +70,18 @@ footer{
 footer a{
     color: white;
     text-decoration: none;
-    font-size: 4em;
-    padding: 3em 1em 1em 1em;
+    font-size: 2em;
+    padding: 2em 1em 1em 1em;
+}
+.social a:hover{
+    background-color: transparent;
 }
 footer a:hover{
     color: black;
     background-color: #EC058E;
 }
 .social{
-    padding-top: 8em;
+    padding-top: 2em;
 }
 
 /* Other CSS*/
@@ -87,7 +93,7 @@ footer a:hover{
     src:url(Alek.ttf);
 }
 #logo{
-    width: 30em;
+    width: 10em;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
