@@ -4,7 +4,7 @@ nav{
     background-color: #A43312;
     display: flex;
     justify-content: space-around;
-    margin-top: 0em;
+    margin-top: 0;
 }
 nav a{
     color: white;
@@ -46,10 +46,9 @@ h3{
 
 .info{
     display: grid;
-    grid-template-columns: 1fr 75px 1fr;
+    grid-template-columns: 1fr, 75px, 1fr;
     grid-template-rows: 30em 30em;
     margin: 4em 2em 0 2em;
-    border-radius: solid black 
 }
 
 h1{
@@ -138,9 +137,6 @@ footer a:hover{
 
 /* Other CSS*/
 
-@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Roboto+Condensed:wght@700&display=swap');
-
 :root{
 --heading-font: "Abyssinica SIL";
 --paragraph-font: "Roboto Condensed";
@@ -169,8 +165,6 @@ footer a:hover{
     }
     #hero-msg {
         margin-top: 0;
-    }
-    #hero-msg h4 {
         display: none;
         text-align: center;
     }
