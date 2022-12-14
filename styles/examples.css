@@ -46,7 +46,7 @@ h3{
 
 .info{
     display: grid;
-    grid-template-columns: 1fr, 75px, 1fr;
+    grid-template-columns: 1fr 75px 1fr;
     grid-template-rows: 30em 30em;
     margin: 4em 2em 0 2em;
 }
